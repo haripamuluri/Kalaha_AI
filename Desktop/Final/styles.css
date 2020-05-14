@@ -1,0 +1,383 @@
+body {
+    /* background: white; */
+    background-image: url("image/photo-1538370965046-79c0d6907d47.jpeg"); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+    /* padding: 20px; */
+    /* top: 100px; */
+    /* background: white; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */ 
+    /* margin: 0%; */
+
+}
+
+header {
+    background: white;
+    /* background-image: url("image/photo-1538370965046-79c0d6907d47.jpeg"); */
+    /* background-size: 100%; */
+    /* background-position: center; */
+    height: 100px;
+    /* padding: 20px; */
+    text-align: center;
+    /* background: rgb(45, 208, 230); */
+    
+    
+  }
+  header nav ul span{
+    /* text-align: center; */
+    color: red;
+    border: 1px solid rebeccapurple;
+    padding: 20px; 
+    
+  }
+header ul li a{
+    /* color:Black; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    margin-top: 40px; 
+    /* border: 1px solid pink; */
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+header ul li a:hover{
+  background: rgb(181, 167, 247);
+  padding: 4px;
+}
+header .logo{
+    background-image: url("image/logo.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    height: 100px;
+    /* position: relative; */
+    text-indent: -9999999px;
+    /* top: -40px; */
+    /* text-align: left; */
+    width: 100px;
+    float: left;
+    /* border: 1px solid red; */
+   
+  }
+header  nav ul{
+    /* margin: 0;
+    padding: 0; */
+    list-style-type: none;
+  }
+
+  /* nav li {
+    /* display: inline-block; */
+    /* float: right;
+    margin-right: 20px; */
+  /* } */ 
+
+
+  /* FEATURES */
+  
+  .features {
+    /* background: white; */
+    color: white;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+  }
+  
+  .features figure {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    width: 100px;
+    color: white;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .features figure a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  .features figure h4{
+    color: blue;
+  }
+  .features figure h4 a{
+    color: blue;
+  } 
+  /* FOOTER */
+  
+  footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  /* Search bar */
+  @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+
+/* Dropdown */
+
+.dropdown{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dropbtn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
+  
+  padding: 10px 100px ;
+  font-size: 20px;
+  border: none; 
+  cursor: pointer;
+  border-radius: 20px;
+  
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #d5dcf3;
+}
+
+#myInput {
+  box-sizing: border-box;
+  /* background-image: url('image/photo-1538370965046-79c0d6907d47.jpeg'); */
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 50px;
+  border: none;
+  border-bottom: 12px ;
+  
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  /* position: relative; */
+  /* float: none; */
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  border-radius: 5px;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/* Login */
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font: bold ;
+  /* padding: 14px 20px; */
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  color: white;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.container label span{
+  color: white;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.titlestu {
+  color: white;
+}
+
+.container b {
+  color: white;
+}
+.loginbtn {
+  background-color: lightblue;
+  width: 100px ;
+  
+}
+
+/* Change styles for span and cancel button on extra small screens */
+/* @media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+} */
+
+/* select.html Buttons */
+
+.studentbtn{
+  display: inline-block;
+  background-color: white;
+  /* margin: 0; */
+  position: absolute;
+  top: 200px;
+  left: 30%;
+  text-decoration: none;
+  padding: 10px 100px ;
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+.staffbtn{
+  display: inline-block;
+  /* margin: 0; */
+  position: absolute;
+  top: 400px;
+  left: 30%;
+  background-color: white;
+  padding: 10px 100px ;
+  border-radius: 20px;
+}
+
+.staffbtn a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.studentbtn a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collegename{
+  color: rgb(68, 221, 54);
+  text-align: center;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 150px;
+  background-color: white;
+
+}
+.left h2{
+  color: blue;
+  text-align: left;
+  
+}
+
+/* Control the right side*/
+/*.right {
+  right: 0;
+  width: 30%;
+  background-color: white;
+} */
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 40px;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.left img {
+  width: 150px;
+  border-radius: 50%;
+}
+
